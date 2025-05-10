@@ -1,0 +1,6 @@
+.Rproj.user/
+*.png
+.Rhistory
+.RData
+.Ruserdata
+example_files/
