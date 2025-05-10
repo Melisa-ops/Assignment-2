@@ -76,4 +76,13 @@ library (quarto)
 ![](3b add the changes to both local and remote.png)
 ### Kindly see below for the results on the online repository
 ![](3c testbranch on GitHub.png)
+## Create a folder called data, and add the data from Assignment 1 to that folder. Amend the previous commit to include the data folder. Push this amended commit to the remote.
+
+### Create folder data
+![](4a create folder data.png)
+
+### Add data from Assignment 1 to this new folder
+![](4b Add file from Ass 1.png)
+### Amend the previous commit to include data folder
+![](4c git amend.png)
 
