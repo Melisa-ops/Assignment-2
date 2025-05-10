@@ -1,26 +1,48 @@
 ---
-title: "example"
-format: html
+title: "ETC5513-Assignment2"
+author: "Melisa"
+format:
+  html :
+    toc: true 
+    number-sections: true
+    crossref:
+      sec-prefix: "Section"
+      sec-labels: "letters-lower"
+ 
 editor: visual
 ---
 
-## Quarto
+## Create a new RStudio Project. In this folder, create a simple qmd file called example.qmd that can be knitted into a HTML file. Show the result of the knitted file {#sec-cleaning}
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+### Please see below for the new RStudio project
 
-## Running Code
+![](1a%20create%20R%20project.png)
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+### Also for the example.qmd file
 
-```{r}
-1 + 1
-```
+![](1c%20example%20qmd%20ready%20to%20use.png)
 
-You can add options to executable code like this
+### Meanwhile, for the knitted result, kindly see below:
 
-```{r}
-#| echo: false
-2 * 2
-```
+![](1d%20result%20knitted%20.png)
 
-The `echo: false` option disables the printing of code (only output is displayed).
+
+
+## From the command line interface, initialise this folder as a git repository and push it to a GitHub repository {#sec-cleaning1}
+
+### Set up gitgignore file on RStudio
+![](1e Create gitignore.png)
+### Initialize this folder as a local repositor.Then, add and commit the relevant files.
+![](2a initialise related folder as git respiratory.png)
+
+### Set up online repository on Git Hub
+![](2b create repository on Git Hub.png)
+### Connect the local repository to the remote repository and push all the files
+
+![](2c connect the local repository to the remote and push.png)
+
+### Kindly see below for the result files that have been integrated into GitHub (https://github.com/Melisa-ops/Assignment-2.git):
+![](2d Current Git Hub.png)
+
+## Create a new branch called testbranch. Modify the file example.qmd and add the changes to both the local and remote repositories {#sec-cleaning2}
+
