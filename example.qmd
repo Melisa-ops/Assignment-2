@@ -1,26 +1,79 @@
 ---
-title: "example"
-format: html
+title: "ETC5513-Assignment2"
+author: "Melisa"
+format:
+  html :
+    toc: true 
+    number-sections: true
+    crossref:
+      sec-prefix: "Section"
+      sec-labels: "letters-lower"
+ 
 editor: visual
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
 ```{r}
 #| echo: false
-2 * 2
+#| warning: false
+#| message: false 
+#| code-summary: "Library"
+
+##install.packages("tidytuesdayR")
+library (rmarkdown)
+library (knitr)
+library (tidyverse)
+library (readr)
+library (kableExtra)
+library (ggplot2)
+library (dplyr)
+library (quarto)
+
+
+
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+## Create a new RStudio Project. In this folder, create a simple qmd file called example.qmd that can be knitted into a HTML file. Show the result of the knitted file {#sec-cleaning}
+
+### Please see below for the new RStudio project
+
+![](1a%20create%20R%20project.png)
+
+### Also for the example.qmd file
+
+![](1c%20example%20qmd%20ready%20to%20use.png)
+
+### Meanwhile, for the knitted result, kindly see below:
+
+![](1d%20result%20knitted%20.png)
+
+## From the command line interface, initialise this folder as a git repository and push it to a GitHub repository {#sec-cleaning1}
+
+### Set up gitgignore file on RStudio
+
+![](1e%20Create%20gitignore.png) 
+
+### Initialize this folder as a local repositor.Then, add and commit the relevant files. ![](2a%20initialise%20related%20folder%20as%20git%20respiratory.png)
+
+### Set up online repository on Git Hub
+
+![](2b%20create%20repository%20on%20Git%20Hub.png) \### Connect the local repository to the remote repository and push all the files
+
+![](2c%20connect%20the%20local%20repository%20to%20the%20remote%20and%20push.png)
+
+### Kindly see below for the result files that have been integrated into GitHub (https://github.com/Melisa-ops/Assignment-2.git):
+
+![](2d%20Current%20Git%20Hub.png)
+
+## Create a new branch called testbranch. Modify the file example.qmd and add the changes to both the local and remote repositories {#sec-cleaning2}
+
+### Create a new branch called testbranch
+
+![](3a%20create%20a%20new%20branch.png)
+
+### The .qmd file was then modified after creating the testbranch. An additional line starting with @sec-cleaning2 was added
+
+### Then add the changes to both local and remote repositories.
+![](3b add the changes to both local and remote.png)
+### Kindly see below for the results on the online repository
+![](3c testbranch on GitHub.png)
+
