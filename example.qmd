@@ -12,6 +12,7 @@ format:
 editor: visual
 ---
 
+<<<<<<< HEAD
 ```{r}
 #| echo: false
 #| warning: false
@@ -85,4 +86,5 @@ library (quarto)
 ![](4b Add file from Ass 1.png)
 ### Amend the previous commit to include data folder
 ![](4c git amend.png)
+
 
